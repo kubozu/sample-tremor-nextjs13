@@ -3,6 +3,7 @@ import { Card } from "@tremor/react";
 import MetricandText from "@/components/MetricandText";
 import KpiCardGrid from "@/components/KpiCardGrid";
 import Navbar from "@/components/Navbar";
+import NavbarBars3 from "@/components/NavbarBars3";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <MetricandText />
       <KpiCardGrid />
       <Navbar />
+      <NavbarBars3 />
     </div>
   );
 }
