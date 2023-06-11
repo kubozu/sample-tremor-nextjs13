@@ -62,13 +62,13 @@ function Navbar() {
             </div>
             <div className="hidden justify-end pr-16 sm:flex lg:pr-0">
               <a
-                href="javascript:void(0)"
+                href="/"
                 className="py-3 px-7 text-base font-medium text-black hover:text-blue-600"
               >
                 ログイン
               </a>
               <a
-                href="javascript:void(0)"
+                href="/"
                 className="rounded-lg bg-indigo-600 py-3 px-7 text-base font-medium text-white hover:bg-opacity-90"
               >
                 新規登録
