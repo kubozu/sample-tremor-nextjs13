@@ -13,6 +13,21 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      animation: {
+        "scale-up-ver-top": "scale-up-ver-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000)   both"
+    },
+    keyframes: {
+        "scale-up-ver-top": {
+            "0%": {
+                transform: "scaleY(.4)",
+                "transform-origin": "100% 0%"
+            },
+            to: {
+                transform: "scaleY(1)",
+                "transform-origin": "100% 0%"
+            }
+        }
+    }
     },
   },
   plugins: [],
