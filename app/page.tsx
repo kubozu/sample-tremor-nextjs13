@@ -5,6 +5,7 @@ import KpiCardGrid from "@/components/KpiCardGrid";
 import Navbar from "@/components/Navbar";
 import NavbarBars3 from "@/components/NavbarBars3";
 import SwiperComponent from "@/components/SwiperComponent";
+import TanstackTable from "@/components/TanstackTable";
 
 export default function Home() {
   return (
@@ -12,9 +13,8 @@ export default function Home() {
       {/* <MetricandText />
       <KpiCardGrid /> */}
       <Navbar />
-      <div className="min-h-screen">
-        <SwiperComponent />
-      </div>
+      <SwiperComponent />
+      <TanstackTable />
       {/* <NavbarBars3 /> */}
     </div>
   );
